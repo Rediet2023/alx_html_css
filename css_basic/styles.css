@@ -3,6 +3,7 @@ body, main{
 }
 body{
   flex-direction: column;
+ background-color: cadetblue;
 }
 main{
   flex-direction: row;
@@ -15,4 +16,29 @@ article{
 aside{
   flex: 1;
   overflow-y: auto;
+}
+h1, h2, h3{
+  color: brown;
+  font-size: x-large;
+}
+p{
+  color: white;
+  font-size: large;
+}
+li{
+  color: white;
+  position: relative;
+  font-size: large;
+
+}
+table{
+  border-color: brown;
+  border: 5px;
+  color: white;
+}
+.logo{
+  position: relative;
+  height: auto;
+  left: 0px;
+  width:50px;
 }
