@@ -10,7 +10,7 @@ body{
   width: 1440px;
   background-image: url(./images/Object.png);
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: #071629;
 }
 .nav_bar{
   display: flex;
@@ -190,7 +190,8 @@ body{
 .tutorials_detail_2 p{
   color: gray;
   padding-left: 10px;
-  font-size: 14px;
+  font-size: 14
+  px;
 }
 .rating{
   width: 30px;
@@ -216,4 +217,48 @@ body{
 }
 .points p{
   color: #C271FF;
+}
+.membership{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  background-color:#071629 ;
+  color: white;
+  padding: 50px;
+  
+}
+.membership h2{
+  font-size: 32px;
+  font-family: source san;
+}
+.membership_type{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px ;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  font-family: san regular;
+}
+.membership_detail{
+  width: 257px;
+  height: 153px;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+}
+.membership_detail p{
+  font-size: 16px; 
+}
+.membership button{
+  background-color: #C271FF;
+  color:white;
+  border: 0;
+  width: 162px;
+  height: 44px;
+  border-radius: 22px;
+  font-size: 14px;
+  padding: 0 5px;
+  font-family: san regular;
+
 }
