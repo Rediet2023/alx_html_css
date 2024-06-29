@@ -7,6 +7,7 @@
   src: url(Fonts/SourceSansPro-Light.otf);
 }
 body{
+  width: 1440px;
   background-image: url(./images/Object.png);
   background-repeat: no-repeat;
   background-color: black;
@@ -121,7 +122,6 @@ body{
 }
 .part_1_testimonials{
   background-color: #C271FF;
-  margin-top: 30px;
   padding: 116px 250px;
   color: white;
   display: flex;
@@ -131,7 +131,7 @@ body{
 .testimonials_detail {
  display: flex;
  flex-direction: column;
- font-size: 20px;
+ font-size: 22px;
  justify-content: start;
  padding: 0;
  margin-left: 80px;
@@ -149,4 +149,71 @@ body{
 .testimonials_detail blockquote{
   padding: 0;
   margin: 0;
+}
+.tutorials{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tutorials h2{
+  align-items: center;
+  font-size: 32px;
+  font-family: san regular;
+  font-weight: lighter;
+  padding-top: 70px;
+  margin-bottom: 0;
+}
+.tutorials_detail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.trainer_pic{
+  width: 255px;
+  height:154px;
+}
+.tutorials_detail_2{
+  width: 255px;
+  height: 335px;
+  margin: 0 15px;
+ 
+}
+.tutorials_detail_2 h3{
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: source san;
+}
+.tutorials_detail_2 p{
+  color: gray;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.rating{
+  width: 30px;
+  height: 30px;
+  padding-left: 10px;
+}
+.review{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.review h4{
+  margin-left: 20px;
+  color: #C271FF;
+  font-size: 14px;
+  font-family: san regular;
+}
+.points{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.points p{
+  color: #C271FF;
 }
