@@ -8,6 +8,7 @@
 }
 body{
   width: 1440px;
+  height: 3718px;
   background-image: url(./images/Object.png);
   background-repeat: no-repeat;
   background-color: #071629;
@@ -261,4 +262,34 @@ body{
   padding: 0 5px;
   font-family: san regular;
 
+}
+.faq{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  font-size:50px ;
+  font-family: san regular;
+  color: #071629;
+  padding-bottom: 300px;
+}
+.faq_detail{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 16px;
+  grid-gap: 200px;
+}
+.faq_box{
+  width:350px;
+  height:242px;
+}
+.faq_box h3{
+  font-family: source san;
+  font-weight: bold;
+}
+.faq_info {
+  color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
 }
