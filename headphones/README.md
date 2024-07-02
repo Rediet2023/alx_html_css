@@ -38,7 +38,7 @@ For issues or questions, contact us:
   Phone: 1-800-123-4567
   Live Chat: Support
 ## License
-  Licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See the LICENSE file for details.
+  Licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
 ## Contact
 For more information:
   Name: Rediet Derieb Hailemariam
