@@ -1,64 +1,49 @@
-# HEADPHONES
+# HEADPHONES Website
 
-Welcome to the HEADPHONES project repository. This document provides an overview of the HEADPHONES product, including features, usage instructions, and support information.
+Welcome to the HEADPHONES website project repository. This document provides an overview of the project, including setup instructions, design details, and support information.
 
 ## Table of Contents
 
-- [Product Overview](#product-overview)
-- [Features](#features)
-- [Specifications](#specifications)
+- [Project Overview](#project-overview)
+- [Design and Interactions](#design-and-interactions)
 - [Usage](#usage)
 - [Support](#support)
 - [License](#license)
 - [Contact](#contact)
 
-## Product Overview
+## Project Overview
 
-The HEADPHONES deliver high-fidelity sound with active noise cancellation, offering both comfort and style.
+The HEADPHONES website showcases our high-fidelity headphone products, providing users with an intuitive and engaging browsing experience.
 
+## Design and Interactions
 
+### Responsive Design
 
-## Features
+- **Mobile Version**: The website switches to the mobile version when the screen width is 480px or less.
 
-- **High-Fidelity Sound**: Clear audio with deep bass.
-- **Noise Cancellation**: Blocks ambient sounds.
-- **Wireless & Wired**: Bluetooth and 3.5mm jack.
-- **Long Battery Life**: Up to 30 hours.
-- **Comfortable Fit**: Soft ear cushions, adjustable headband.
+### Links
 
-## Specifications
+- **Hover/Active State**: Links change to `#FF6565` when hovered over or active.
 
-- **Driver Size**: 40mm
-- **Frequency Response**: 20Hz - 20kHz
-- **Impedance**: 32 ohms
-- **Battery Life**: 30 hours (ANC off), 20 hours (ANC on)
-- **Charging Time**: 2 hours
-- **Connectivity**: Bluetooth 5.0, 3.5mm jack
-- **Weight**: 250g
+### Buttons
 
-## Usage
+- **Hover/Active State**: Buttons have `opacity: 0.9` when hovered over or active.
 
-1. **Power On/Off**: Hold the power button for 3 seconds.
-2. **Pairing**: Enable Bluetooth on your device, hold the Bluetooth button on the headphones until the LED flashes.
-3. **Controls**: Use earcup buttons for volume, play/pause, and calls.
-4. **Charging**: Use the included USB-C cable. LED turns green when fully charged.
+### Content Layout
+
+- **Max Width**: The content has a maximum width of 1000px and is centered on the page.
 
 ## Support
-
 For issues or questions, contact us:
-- **Email**: support@headphones.com
-- **Phone**: 1-800-123-4567
-- **Live Chat**: [Support](https://www.headphones.com/support)
-
+  Email: support@headphones.com
+  Phone: 1-800-123-4567
+  Live Chat: Support
 ## License
-
-Licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See the [LICENSE](LICENSE) file for details.
-
+  Licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. See the LICENSE file for details.
 ## Contact
-
 For more information:
-- **Name**: John Doe
-- **Email**: john.doe@headphones.com
-- **Twitter**: [@HeadphonesHQ](https://twitter.com/HeadphonesHQ)
-
-Thank you for choosing HEADPHONES!
+  Name: Rediet Derieb Hailemariam
+  Email: redu.doe@headphones.com
+  Twitter: @HeadphonesHQ
+  
+Thank you for visiting the HEADPHONES website!
