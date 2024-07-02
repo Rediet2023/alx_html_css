@@ -6,7 +6,6 @@ Welcome to the HEADPHONES website project repository. This document provides an 
 
 - [Project Overview](#project-overview)
 - [Design and Interactions](#design-and-interactions)
-- [Usage](#usage)
 - [Support](#support)
 - [License](#license)
 - [Contact](#contact)
