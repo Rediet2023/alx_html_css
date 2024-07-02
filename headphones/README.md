@@ -16,7 +16,7 @@ Welcome to the HEADPHONES project repository. This document provides an overview
 
 The HEADPHONES deliver high-fidelity sound with active noise cancellation, offering both comfort and style.
 
-![HEADPHONES](path/to/headphone-image.jpg)
+
 
 ## Features
 
