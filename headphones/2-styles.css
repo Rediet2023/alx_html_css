@@ -1,0 +1,235 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@font-face{
+  font-family: san b;
+  src: url(source_sans_pro/SourceSansPro-Bold.otf);
+}
+@font-face{
+  font-family: san r;
+  src: url(source_sans_pro/SourceSansPro-Regular.otf);
+}
+body{
+  background-image: url(images/headphones_hero_1.jpg);
+  background-repeat: no-repeat;
+  width: 1400px;
+  color: white;
+}
+.nav_bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_bar img{
+  width: 161px;
+  height: 32px;
+  margin-top: 27.76px;
+  margin-left: 200.61px;
+}
+.menu{
+  width: 255px;
+  height: 15px;
+  margin-top: 37px;
+  margin-right: 199px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-family: san b;
+}
+.menu a{
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+ 
+}
+.menu a:hover{
+  color: #FF6565;
+}
+.hero{
+  width:637px;
+  height: 313px;
+  display: flex;
+  flex-direction: column;
+  margin-left:382px;
+  margin-top: 322px;
+  margin-bottom: 110px;
+  text-align: center;
+  align-items: center;
+  
+}
+.hero h1{
+  font-size: 32px;
+  font-family: san b;
+  color: white;
+}
+.hero h2{
+  font-size:16px;
+  font-family: san b;
+}
+.hero button{
+  width:162px;
+  height: 44px;
+  background-color:#FF6565;
+  border: 0;
+  border-radius: 22px;
+  color: white;
+  font-size: 14px;
+  margin-top: 40px;
+  font-family: san b; 
+}
+.hero button:hover{
+  opacity: 0.9;
+}
+.hero p{
+  font-size: 16px;
+  font-family: san r;
+  margin-top: 65px;
+}
+.what_we_do{
+  text-align: center;
+  background-color: white;
+  color: black;
+  height: 653px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: san r;
+}
+.discription{
+  width: 637px;
+  height: 184px;
+  margin-bottom:93px;
+}
+.discription h2{
+  margin-top: 114px;;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+.sound{
+  display: flex;
+  width: 1002px;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 93px;
+  margin-bottom: 68px;
+}
+.our_results{
+  background-image: url(images/headphones_hero_2.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: san r;
+  padding-bottom: 79px;
+}
+.our_results h2{
+  font-size: 32px;
+  margin-bottom: 80px;
+}
+.our_results_discription{
+  padding-top: 141px;
+  width: 637px;
+  font-size: 16px;
+}
+.results{
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 56px;
+}
+.results img{
+  width: 190px;
+  height: 190px;
+}
+.result_box{
+  position: relative;
+}
+.results h2{
+  position: absolute;
+  top: 70px;
+  left: 60px;
+}
+.results p{
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  right: 20px;
+}
+
+@media screen and (max-width: 480px) {
+ 
+  body{
+    background-position: top;
+    width: 100%;
+  }
+    .nav_bar img {
+      margin: 0;   
+      margin-top: 10%;  
+      margin-left: 30%;
+    }
+    .menu {
+      display: none;
+      background-image: url(images/menu.png);
+      background-position: left;
+      background-repeat: no-repeat;
+    }
+    .menu a{
+      display: block;
+      text-decoration: none;
+      padding: 10px 15px;
+      align-items: left;
+    }
+    .hero {
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 250px;
+        margin-bottom: 110px;
+    }
+
+    .hero h2, .hero p, .hero button {
+        font-size: 14px;  
+    }
+    .hero button {
+        width: auto;
+        margin-top: 20px;
+        padding: 10px 20px; 
+    }
+    .hero h1{
+      text-align: center;
+      font-size: 32px;
+    }
+    .what_we_do{
+      height: 1020px;
+      margin-bottom: 200px;
+    }
+    .discription{
+      width: 90%;
+      font-size: 14px;
+    }
+    .sound{
+      display: flex;
+      flex-direction: column;
+    }
+    .sound_detail{
+      padding:5%;
+      width: 50%;
+    } 
+    .our_results_discription{
+      width: 90%;
+      font-size: 14px;
+    }
+    .results{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .result_box{
+      padding:5%;
+      width: 50%;
+    } 
+}
