@@ -116,6 +116,13 @@ body{
   margin-top: 93px;
   margin-bottom: 68px;
 }
+.sound img{
+  height:60px;
+  margin-bottom: 10px;
+} 
+.sound h3{
+  margin-bottom: 20px;
+}
 .our_results{
   background-image: url(images/headphones_hero_2.jpg);
   display: flex;
@@ -216,7 +223,7 @@ body{
       flex-direction: column;
     }
     .sound_detail{
-      padding:5%;
+      padding:15px;
       width: 50%;
     } 
     .our_results_discription{
